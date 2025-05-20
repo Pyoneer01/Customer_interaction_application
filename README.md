@@ -1,5 +1,8 @@
 # 💬 Customer Interaction Application
 
+![Screenshot 2025-05-20 214857](https://github.com/user-attachments/assets/ea22a333-fa49-43c1-b2c2-b7e64a8152ee)
+
+
 An AI-powered customer support application that allows users to:
 - Raise product-related issues
 - Chat with an AI assistant (Groq Cloud API)
