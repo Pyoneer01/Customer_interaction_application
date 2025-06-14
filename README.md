@@ -3,8 +3,12 @@
 ## Home Page
 ![Screenshot 2025-05-20 214857](https://github.com/user-attachments/assets/ea22a333-fa49-43c1-b2c2-b7e64a8152ee)
 
+
+
 ## Chat with Support Bot
 ![image](https://github.com/user-attachments/assets/d6f654fb-9659-4798-b699-d247611de7d3)
+
+
 
 ## Database to store escalated issues
 ![image](https://github.com/user-attachments/assets/94df9226-c1d0-4b55-99f9-981d4cad8064)
