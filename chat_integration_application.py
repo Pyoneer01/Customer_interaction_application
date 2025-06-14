@@ -226,7 +226,7 @@ def chatbot_page():
                 )
 
     # User input for chat
-    user_message = st.text_input("Describe your issue", key="user_message", placeholder="Type your message here...")
+    user_message = st.text_area("Describe your issue", key="user_message", placeholder="Type your message here...", height=100)
 
     # Send message logic
     if st.button("Send"):
