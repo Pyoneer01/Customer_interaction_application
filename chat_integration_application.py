@@ -41,7 +41,7 @@ def summarize_issue(customer_issue):
         ],
         "model": "llama3-8b-8192",
         "temperature": 0.5,
-        "max_tokens": 400,
+        "max_tokens": 300,
         "top_p": 1.0,
         "stop": None
     }
@@ -161,12 +161,12 @@ def get_groq_response(user_message):
         # Call the Groq API for a chat completion
         chat_completion = client.chat.completions.create(
             messages=[
-                {"role": "system", "content": "you are a helpful assistant for an e-commerce company. Give a meaningful response within 150 tokens"},
+                {"role": "system", "content": "you are a helpful assistant for an e-commerce company. Respond concisely and completely within 150 tokens"},
                 {"role": "user", "content": user_message},
             ],
             model="llama3-8b-8192",
             temperature=0.5,
-            max_tokens=100,
+            max_tokens=150,
             top_p=1,
             stop=None,
             stream=False,
