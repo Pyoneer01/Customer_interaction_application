@@ -41,7 +41,7 @@ def summarize_issue(customer_issue):
         ],
         "model": "llama3-8b-8192",
         "temperature": 0.5,
-        "max_tokens": 300,
+        "max_tokens": 400,
         "top_p": 1.0,
         "stop": None
     }
